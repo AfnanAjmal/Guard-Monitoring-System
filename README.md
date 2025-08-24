@@ -97,16 +97,16 @@ python guard_fatigue_detection.py --guard --headless --log guard_events.csv
 
 ```mermaid
 graph TD
-  A[Webcam] --> B[OpenCV Capture]
-  B --> C[MediaPipe Face Mesh]
-  C --> D[Eye Landmarks]
-  D --> E[EAR Computation]
-  E --> F[Drowsiness Logic\n(counter + fatigue score)]
-  F --> G[Visual Overlay]
-  F --> H[Audio Alerts]
-  F --> I[CSV Logger]
-  C --> J[Face Presence]
-  J --> K[Guard Mode\n(no-face timeout + escalation)]
+  A["Webcam"] --> B["OpenCV Capture"]
+  B --> C["MediaPipe Face Mesh"]
+  C --> D["Eye Landmarks"]
+  D --> E["EAR Computation"]
+  E --> F["Drowsiness Logic<br/>(counter + fatigue score)"]
+  F --> G["Visual Overlay"]
+  F --> H["Audio Alerts"]
+  F --> I["CSV Logger"]
+  C --> J["Face Presence"]
+  J --> K["Guard Mode<br/>(no-face timeout + escalation)"]
   K --> H
   K --> I
 ```
