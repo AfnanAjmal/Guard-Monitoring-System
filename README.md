@@ -43,12 +43,14 @@ Real-time computer-vision monitor for security guard fatigue. Tracks eye landmar
 
 ## Demo
 
-<video src="video/Screen Recording 2025-08-24 at 9.31.17 PM.mov" controls width="720">
-  Your browser does not support the video tag. Watch the demo video instead:
-  <a href="video/Screen Recording 2025-08-24 at 9.31.17 PM.mov">download/view .mov</a>.
-</video>
+![Demo GIF](video/demo.gif)
 
-Note: GitHub’s markdown renderer may not inline-play `.mov` files in all browsers. If playback doesn’t appear, use the download link above.
+<details>
+<summary>MP4 (higher quality)</summary>
+
+<video src="video/demo.mp4" controls width="720"></video>
+
+</details>
 
 ## Support matrix
 
