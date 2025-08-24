@@ -1,0 +1,30 @@
+2025-08-24 21:07:28,281 - INFO - Starting test: test_initialization
+2025-08-24 21:07:28,477 - INFO - Testing detector initialization
+2025-08-24 21:07:28,478 - INFO - Finished test: test_initialization
+2025-08-24 21:07:28,480 - INFO - Starting test: test_calculate_EAR
+2025-08-24 21:07:28,504 - INFO - Testing EAR calculation
+2025-08-24 21:07:28,509 - INFO - Finished test: test_calculate_EAR
+2025-08-24 21:07:28,511 - INFO - Starting test: test_process_frame_no_face
+2025-08-24 21:07:28,557 - INFO - Testing frame processing without face
+2025-08-24 21:07:28,633 - INFO - Finished test: test_process_frame_no_face
+2025-08-24 21:07:28,634 - INFO - Starting test: test_drowsiness_threshold[0.2]
+2025-08-24 21:07:28,657 - INFO - Testing drowsiness threshold with EAR 0.2
+2025-08-24 21:07:28,660 - INFO - Finished test: test_drowsiness_threshold[0.2]
+2025-08-24 21:07:28,661 - INFO - Starting test: test_drowsiness_threshold[0.3]
+2025-08-24 21:07:28,729 - INFO - Testing drowsiness threshold with EAR 0.3
+2025-08-24 21:07:28,731 - INFO - Finished test: test_drowsiness_threshold[0.3]
+2025-08-24 21:07:28,736 - INFO - Starting test: test_camera_failure
+2025-08-24 21:07:28,792 - INFO - Testing camera failure handling
+2025-08-24 21:07:28,997 - INFO - Finished test: test_camera_failure
+2025-08-24 21:07:28,999 - INFO - Starting test: test_frame_read_failure
+2025-08-24 21:07:29,029 - INFO - Testing frame read failure
+2025-08-24 21:07:29,051 - INFO - Finished test: test_frame_read_failure
+2025-08-24 21:07:29,053 - INFO - Starting test: test_different_resolutions[resolution0]
+2025-08-24 21:07:29,094 - INFO - Testing resolution (320, 240, 3)
+2025-08-24 21:07:29,249 - INFO - Finished test: test_different_resolutions[resolution0]
+2025-08-24 21:07:29,252 - INFO - Starting test: test_different_resolutions[resolution1]
+2025-08-24 21:07:29,286 - INFO - Testing resolution (640, 480, 3)
+2025-08-24 21:07:29,333 - INFO - Finished test: test_different_resolutions[resolution1]
+2025-08-24 21:07:29,335 - INFO - Starting test: test_different_resolutions[resolution2]
+2025-08-24 21:07:29,368 - INFO - Testing resolution (1280, 720, 3)
+2025-08-24 21:07:29,430 - INFO - Finished test: test_different_resolutions[resolution2]

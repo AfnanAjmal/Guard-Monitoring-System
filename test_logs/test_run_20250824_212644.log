@@ -1,0 +1,27 @@
+2025-08-24 21:26:47,107 - INFO - Starting test: test_initialization
+2025-08-24 21:26:47,322 - INFO - Testing detector initialization
+2025-08-24 21:26:47,324 - INFO - Finished test: test_initialization
+2025-08-24 21:26:47,325 - INFO - Starting test: test_calculate_EAR
+2025-08-24 21:26:47,354 - INFO - Testing EAR calculation
+2025-08-24 21:26:47,357 - INFO - Finished test: test_calculate_EAR
+2025-08-24 21:26:47,358 - INFO - Starting test: test_process_frame_no_face
+2025-08-24 21:26:47,400 - INFO - Testing frame processing without face
+2025-08-24 21:26:47,496 - INFO - Finished test: test_process_frame_no_face
+2025-08-24 21:26:47,498 - INFO - Starting test: test_drowsiness_threshold[0.2]
+2025-08-24 21:26:47,533 - INFO - Testing drowsiness threshold with EAR 0.2
+2025-08-24 21:26:47,541 - INFO - Finished test: test_drowsiness_threshold[0.2]
+2025-08-24 21:26:47,543 - INFO - Starting test: test_drowsiness_threshold[0.3]
+2025-08-24 21:26:47,584 - INFO - Testing drowsiness threshold with EAR 0.3
+2025-08-24 21:26:47,588 - INFO - Finished test: test_drowsiness_threshold[0.3]
+2025-08-24 21:26:47,590 - INFO - Starting test: test_frame_read_failure
+2025-08-24 21:26:47,616 - INFO - Testing frame read failure
+2025-08-24 21:26:47,808 - INFO - Finished test: test_frame_read_failure
+2025-08-24 21:26:47,811 - INFO - Starting test: test_different_resolutions[resolution0]
+2025-08-24 21:26:47,850 - INFO - Testing resolution (320, 240, 3)
+2025-08-24 21:26:48,077 - INFO - Finished test: test_different_resolutions[resolution0]
+2025-08-24 21:26:48,078 - INFO - Starting test: test_different_resolutions[resolution1]
+2025-08-24 21:26:48,217 - INFO - Testing resolution (640, 480, 3)
+2025-08-24 21:26:48,264 - INFO - Finished test: test_different_resolutions[resolution1]
+2025-08-24 21:26:48,266 - INFO - Starting test: test_different_resolutions[resolution2]
+2025-08-24 21:26:48,388 - INFO - Testing resolution (1280, 720, 3)
+2025-08-24 21:26:48,460 - INFO - Finished test: test_different_resolutions[resolution2]
